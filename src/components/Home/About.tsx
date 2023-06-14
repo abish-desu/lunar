@@ -1,4 +1,4 @@
-import img from "../assets/bed.jpg"
+import Img from '../../../public/bed.jpeg'
 const About = () => {
     return (
         <>
@@ -14,11 +14,13 @@ const About = () => {
                     <p>
                     Ladies and gentlemen, history keeps repeating itself but doesn't teach us any lessons. 'Never again' has turned into 'again and again and again.' So today, ladies and gentlemen, take Hotel Lunar as a wake-up call and a message to be our messenger that people are the ones who can change what they want to change. 
                     </p>
+                    <button className="bg-purple-500 hover:bg-purple-500/80 text-white mt-16 py-2 px-4 font-semibold text-xl">Read More</button>
+
 
 
                 </div>
                 <div className='ml-5'>
-                    <img src={img} alt="" className='w-[50vw] h-auto'  />
+                    <img src={Img} alt="" className='w-[50vw] h-auto'  />
                 </div>
             </div>
         </>
