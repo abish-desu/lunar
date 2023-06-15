@@ -2,7 +2,7 @@ import Hero from '../Hero'
 
 
 
-const App = () => {
+const Rooms = () => {
   return (
     <>
    
@@ -12,4 +12,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Rooms
