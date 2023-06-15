@@ -1,19 +1,8 @@
-import Hero from './components/Hero'
-import About from './components/Home/About'
-import Service from './components/Home/Service'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar/Navbar'
-
 import './index.css'
+import Main from './components/Home/Home.tsx'
 const App = () => {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Service/>
-    <Footer/>
-          </>
+    <Main/>
   )
 }
 
