@@ -18,7 +18,7 @@ export function Card(props: React.PropsWithChildren<CardProps>) {
 
             <div className='flex justify-between mt-5'>
                 <h1 className="text-xl text-purple-500 font-semibold">{props.lavel.toLocaleString()} per night</h1>
-                <button className="bg-purple-500 hover:bg-purple-500/80 text-white py-2 px-4 font-semibold text-xl">Book</button>
+                <button className="bg-purple-500 hover:bg-purple-500/80 text-white py-2 px-4 font-semibold text-xl">Book Now</button>
 
       </div>
       </div>
