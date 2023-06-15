@@ -1,7 +1,6 @@
 import Hero from '../Hero'
 import About from './About'
 import Service from './Service'
-import Footer from '../Footer'
 import Navbar from '../Navbar/Navbar'
 
 
