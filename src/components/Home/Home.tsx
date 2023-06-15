@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
     <Navbar/>
-    <Hero/>
+    <Hero title={"A Memorable Experience."} button={"Reserve Now"}/>
     <About/>
     <Service/>
     <Footer/>
