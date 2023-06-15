@@ -12,7 +12,7 @@ const App = () => {
     <Hero title={"A Memorable Experience."} button={"Reserve Now"}/>
     <About/>
     <Service/>
-    <Footer/>
+    
           </>
   )
 }

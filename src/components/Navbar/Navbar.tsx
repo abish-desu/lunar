@@ -8,11 +8,11 @@ const Navbar = () => {
 
         <ul className="hidden lg:flex justify-between gap-24 items-center font-bold">
         <Link to='/' className='text-purple-500' >  Home </Link>
-                    <Link to='/about' className='hover:text-purple-500'  >Rooms and Suites</Link>
+                    <Link to='/rooms' className='hover:text-purple-500'  >Rooms and Suites</Link>
                     <Link to='/facilities' className='hover:text-purple-500' >Facilities</Link>
                     <Link to='/contact' className='hover:text-purple-500' >Contacts</Link>
-                    <Link to='/' className='hover:text-purple-500'>Offers</Link>
-                    <Link to='/' className='hover:text-purple-500'>Events</Link>
+                    <Link to='/offers' className='hover:text-purple-500'>Offers</Link>
+                    <Link to='/events' className='hover:text-purple-500'>Events</Link>
         </ul>
         <Outlet />
       </nav>
